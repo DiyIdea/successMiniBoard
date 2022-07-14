@@ -1,0 +1,76 @@
+body {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+header {
+    margin: 20px 0;
+    overflow: auto;
+}
+
+input, textarea {
+    border: 1px solid gray;
+}
+
+input[name="title"] {
+    font-size: 15pt;
+    padding: 7px;
+    width: calc(100% - 14px - 2px);
+}
+textarea {
+    font-size: 11pt;
+    margin-top: 5px;
+    min-height: 100px;
+    padding: 7px;
+    resize: none;
+    width: calc(100% - 14px - 2px);
+}
+
+header > div {
+    overflow: auto;
+    width: 100%;
+}
+header > div > div:first-child {
+    float: left;
+}
+header > div > div:first-child > input {
+    height: 18px;
+    width: 100px;
+}
+header > div > div:last-child {
+    float: right;
+}
+header > div > div:last-child > input {
+    cursor: pointer;
+    width: 80px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+article {
+    border: 1px solid #CCC;
+    margin: 10px 0;
+    padding: 10px;
+}
+article > .title > label {
+    font-size: 15pt;
+    font-weight: bold;
+}
+article > .info > .author {
+    font-size: 10pt;
+}
+article > .info > .write_time {
+    font-size: 9pt;
+    margin-left: 7px;
+}
+article > .info > a {
+    color: red;
+    cursor: pointer;
+    font-size: 9pt;
+    margin-left: 5px;
+}
+article > .contents {
+    margin-top: 10px;
+}
